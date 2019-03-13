@@ -14,3 +14,13 @@ for (j = 0; j <= 100; j += 5) {
    total2 = total2 + j;
 }
 console.log(total2);
+
+const array = ["Wild", "Code", "School", "Hello", "World"];
+
+switch (array[0]) {
+   case "Wild":
+      console.log(array[3] + array[4]);
+      break;
+   default:
+      console.log(array);
+}
